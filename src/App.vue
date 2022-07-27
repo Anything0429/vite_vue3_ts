@@ -18,7 +18,7 @@ const getInfoHandler = ():void => {
 
 <template>
   <HelloWorld ref="myRef" @my-add="myAddHandler" @my-del="myDelHandler" />
-  <button @click="getInfoHandler">获取子组件中的数据1</button>
+  <button @click="getInfoHandler">获取子组件中的数据3</button>
 </template>
 
 <style>
